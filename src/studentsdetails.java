@@ -78,23 +78,6 @@ public class studentsdetails implements ActionListener
         label9.setBounds(10, 280, 150, 25);
         panel.add(label9);
         
-        txt2 = new JLabel();
-        txt2.setBounds(150, 220, 250, 20);
-        panel.add(txt2);
-        
-        txt3 = new JLabel();
-        txt3.setBounds(150, 240, 250, 20);
-        panel.add(txt3);
-        
-        txt4 = new JLabel();
-        txt4.setBounds(150, 260, 250, 20);
-        panel.add(txt4);
-        
-        txt5 = new JLabel();
-        txt5.setBounds(150, 280, 250, 20);
-        panel.add(txt5);
-        
-        
         //COMBOBUTTON!!!!
         
         String years[]= {"2021/22","2022/23","2023/24","2024/25","2025/26"};
@@ -122,6 +105,7 @@ public class studentsdetails implements ActionListener
         ch1.setBounds(150, 120, 80, 25);
         panel.add(ch1);
         
+        
         ch2=new JCheckBox("SCO 201");
         ch2.setBounds(150, 140, 80, 25);
         panel.add(ch2);
@@ -136,7 +120,21 @@ public class studentsdetails implements ActionListener
         txt1.setBounds(150, 20, 180, 25);
         panel.add(txt1);
         
+        txt2 = new JLabel();
+        txt2.setBounds(150, 220, 250, 20);
+        panel.add(txt2);
         
+        txt3 = new JLabel();
+        txt3.setBounds(150, 240, 250, 20);
+        panel.add(txt3);
+        
+        txt4 = new JLabel();
+        txt4.setBounds(150, 260, 250, 20);
+        panel.add(txt4);
+        
+        txt5 = new JLabel();
+        txt5.setBounds(150, 280, 250, 20);
+        panel.add(txt5);
         
         //BUTTON!!
         
