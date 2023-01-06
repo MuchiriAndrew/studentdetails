@@ -1,14 +1,6 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JRadioButton;
-import javax.swing.JTextField;
+import javax.swing.*;
 
 public class studentsdetails implements ActionListener
 {
@@ -21,7 +13,6 @@ public class studentsdetails implements ActionListener
     JCheckBox ch1,ch2,ch3;
     JRadioButton rb1,rb2;
     ButtonGroup G1;
-    //ImageIcon image1;
 
     
     public studentsdetails()
@@ -119,6 +110,7 @@ public class studentsdetails implements ActionListener
         txt1 = new JTextField();
         txt1.setBounds(150, 20, 180, 25);
         panel.add(txt1);
+      
         
         txt2 = new JLabel();
         txt2.setBounds(150, 220, 250, 20);
